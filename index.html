@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amar project</title>
+    
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+            effect:'random',
+            slices:10,
+            animSpeed:500,
+            pauseTime:2200,
+            startSlide:0, //Set starting Slide (0 index)
+            directionNav:false,
+            directionNavHide:false, //Only show on hover
+            controlNav:false, //1,2,3...
+            controlNavThumbs:false, //Use thumbnails for Control Nav
+            pauseOnHover:true, //Stop animation while hovering
+            manualAdvance:false, //Force manual transitions
+            captionOpacity:0.8, //Universal caption opacity
+            beforeChange: function(){},
+            afterChange: function(){},
+            slideshowEnd: function(){} //Triggers after all slides have been shown
+        });
+    });
+    </script>
+</head>
+<body>
+    <div class="headersection template clear">
+        <div class="logo">
+           <a href="#">
+               <img src="./images/apple.png" alt="apple logo">
+               <!--<img src="./images/img101.jpg" alt="2n">-->
+            </a>
+           <h2>Website title</h2>
+           <p>Our website Description</p>
+        </div>
+        <div class="social">
+           <a href="http://www.facebook.com"><img src="./images/facebook.png" alt=""></a>
+           <a href="#"><img src="./images/twitter.png" alt="Twitter"></a>
+           <a href="http://www.google.com" target="_blank"><img src="./images/google.png" alt=""></a>
+           <a href="#"><img src="./images/whatsapp.png" alt=""></a>
+        </div>
+    </div>
+    <div class="navsection template">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Product</a>
+              <ul>
+                  <li><a href="">Product-1</a></li>
+                  <li><a href="">Product-2</a></li>
+                  <li><a href="">Product-3</a></li>
+                  <li><a href="">Product-4</a></li>
+                  <li><a href="">Product-5</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="contact.html" id="active">Contect</a>
+              <ul>
+                  <li><a href="">Address-1</a></li>
+                  <li><a href="">Address-2</a></li>
+                  <li><a href="">Address-3</a></li>
+                  <li><a href="">Address-4</a></li>
+                  <li><a href="">Address-5</a></li>
+              </ul>
+          </li>
+        </ul>
+  </div>
+    <div class="slidersection template clear">       
+        <div id="slider">
+            <a href="#"><img src="images/slideshow/01.jpg" alt="nature 1" title="This slider one title or description" /></a>
+            <a href="#"><img src="images/slideshow/02.jpg" alt="nature 2" title="This slider two title or description" /></a>
+            <a href="#"><img src="images/slideshow/03.jpg" alt="nature 3" title="This slider three title or description" /></a>
+            <a href="#"><img src="images/slideshow/04.jpg" alt="nature 4" title="This slider four title or description" /></a>
+        </div>
+    </div>
+    <div class="contentsection template ridoy clear">
+        <div class="maincontent">
+            <div class="samepost">
+                <h2>Our post title here</h2>
+                <a href="#"><img src="./images/img28.jpg" alt="Lovely sunrise"/></a>
+                <p>
+                    hare krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare harehare
+                     krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare hare
+                    hare krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare harehare
+                     krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare hare
+                    hare krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare harehare
+                     krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare hare
+                    krishna hare krishna krishna krishna hare 
+                   hare hare rama hare rama rama rama hare hare
+                   hare hare rama hare rama rama rama hare hare rama rama hare har
+                </p>
+                <div class="readmore">
+                    <a href="./post.html">Read More</a>
+                </div>
+                <div class="samepost">
+                <h2>Our post title here</h2>
+                <a href="#"><img src="./images/img102.jpg" alt="Lovely sunrise"/></a>
+                <p>
+                    hare krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare harehare
+                    krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare hare
+                    hare krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare harehare
+                    krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare hare
+                    hare krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare harehare
+                    krishna hare krishna krishna krishna hare 
+                    hare hare rama hare rama rama rama hare hare
+                    krishna hare krishna krishna krishna hare 
+                hare hare rama hare rama rama rama hare hare
+                hare hare rama hare rama rama rama hare hare rama rama hare har
+                </p>
+                    <div class="readmore">
+                        <a href="./post.html">Read More</a>
+                    </div>
+                </div>
+                 <div class="samepost">
+                    <h2>Our post title here</h2>
+                    <a href=""><img src="./images/img101.jpg" alt="Lovely sunrise"/></a>
+                    <p>
+                        hare krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare harehare
+                            krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare
+                        hare krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare harehare
+                            krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare
+                        hare krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare harehare
+                            krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare
+                        krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare
+                        hare hare rama hare rama rama rama hare hare rama rama hare har
+                    </p>
+                        <div class="readmore">
+                            <a href="./post.html">Read More</a>
+                        </div></div>
+            </div>
+        </div>
+        <div class="sidebarcontent">
+            <div class="samesidebar">
+                <h2>Latest articles</h2>
+                <ul>
+                    <li><a href="#">Post title one will be go here</a></li>
+                    <li><a href="#">Post title two will be go here</a></li>
+                    <li><a href="#">Post title three will be go here</a></li>
+                    <li><a href="#">Post title four will be go here</a></li>
+                    <li><a href="#">Post title five will be go here</a></li>
+                    <li><a href="#">Post title sex will be go here</a></li>
+                </ul>
+            </div>
+            <div class="samesidebar">
+                <h2>Popular articles</h2>
+                <div class="popular">
+                    <h3><a href="#">post title will be go here</a></h3>
+                    <a href="#"><img src="./images/img27.jpg" alt="image"></a>
+                    <p>
+                        hare krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare harehare
+                        krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare 
+                         krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare
+                    </p>
+                </div>
+                <div class="popular">
+                    <h3><a href="#">post title will be go here</a></h3>
+                    <a href="#"><img src="./images/img27.jpg" alt="image"></a>
+                    <p>
+                        hare krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare harehare
+                        krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare 
+                         krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare
+                    </p>
+                </div>
+                <div class="popular">
+                    <h3><a href="#">post title will be go here</a></h3>
+                    <a href="#"><img src="./images/img27.jpg" alt="image"></a>
+                    <p>
+                        hare krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare harehare
+                        krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare 
+                         krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare
+                    </p>
+                </div>
+                <div class="popular">
+                    <h3><a href="#">post title will be go here</a></h3>
+                    <a href="#"><img src="./images/img27.jpg" alt="image"></a>
+                    <p>
+                        hare krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare harehare
+                        krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare 
+                         krishna hare krishna krishna krishna hare 
+                        hare hare rama hare rama rama rama hare hare
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footersection template clear">
+        <div class="footermenu">            
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contect</a></li>
+            <li><a href="#">privacy</a></li>
+        </ul>
+        </div>
+        <p>&copy; Copyright traning with live project</p>
+    </div>
+    <div class="fixedicon">
+        <a href="www.facebood.com"><img src="./images/facebook.png" alt="facebook"></a>
+        <a href="www.google.com"><img src="./images/google.png" alt="google"></a>
+        <a href="#"><img src="./images/twitter.png" alt="twitter"></a>
+        <a href="www.whatsapp.com"><img src="./images/whatsapp.png" alt="whatsapp"></a>
+    </div>
+</body>
+</html>
